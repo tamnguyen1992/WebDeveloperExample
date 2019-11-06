@@ -1,4 +1,4 @@
-#Web Developer Example
+# Web Developer Example
 Convert the website design into a functioning website using HTML best practices.
 * Design is located in the "Design" folder.
 * Image assets are available in the "img" folder.
