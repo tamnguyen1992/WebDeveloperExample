@@ -1,0 +1,503 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #32503f;
+  text-align: left;
+  background-color: #fff;
+}
+.redLine{
+  background-color: #9f471f;
+  height: 10px;
+}
+#grad{
+  background: linear-gradient(to right, gray, white);
+  height: 120px;
+}
+nav{
+  margin: 24px 50px;
+  height: 132px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav-menu-bg{
+  background: #32503f;
+  height: 60px;
+}
+.nav-right {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-menu{
+  display: none;
+  width: 45rem;
+  margin: 12px;
+  padding-left: 150px;
+  justify-content: space-between;
+  color: #FFF;
+  font-weight: 300;
+}
+#nav-logo{
+  width: 150px;
+  margin: 10px;
+}
+.nav-name{
+  font-size: 14px;
+  color: #32503f;
+  margin: 0px 20px;
+}
+.nav-phone{
+  font-size: 12px;
+  color: #9f471f;
+  margin: 0px 20px;
+}
+.office{
+  font-weight:normal;
+}
+.slogan{
+  text-align: left;
+  margin: 0px;
+  padding: 20px;
+  color: #9f471f;
+  font-size:2em;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.dropbtn {
+/*   display: none; */
+  background-color: #32503f;
+  color: white;
+  font-weight: bold;
+  padding: 16px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #32503f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #385846;
+  text-decoration: underline;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #32503f;
+}
+#header-background{
+  background: url('img/header-background.png?raw=true');
+  height: 90px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+a{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+#bt{
+  margin-top: 40px;
+}
+#bt a:hover{
+  font-weight: 400;
+  text-decoration: none;
+}
+.button{
+  background-color: #9f471f;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  padding: 20px 0px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+.footer-list{
+  padding-left: 0;
+  list-style: none;
+}
+li{
+  padding-top: 10px;
+}
+.footer-left-style a{
+  font-size: 18px;
+}
+.general-office-info{
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer-mid-style{
+  text-decoration: underline;
+}
+.footer-mid-style a{
+  font-size: 16px;
+}
+.social-icon {
+  width: 50px;
+  margin: 24px 3px;
+  border-radius: 4px;
+}
+.footer-logo{
+  width: 110px;
+  margin: 20px 0px 0px 0px;
+}
+.copyright{
+  color: #fff;
+  font-size: 12px;
+}
+#footer{
+  background: url('img/footer-background.png?raw=true');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.primary{
+/*   background: red; */
+}
+#header-layout{
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 1fr;
+  grid-template-rows: 60px 60px 0.3fr;
+  grid-gap: 0px;
+  margin: 0px;
+  height: 170px;
+}
+#hd-1{
+  grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 4;
+  text-align: left;
+}
+#hd-2{
+  grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+  text-align: right;
+}
+#hd-3{
+  grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+  text-align: right;
+}
+#hd-4{
+  grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+  text-align: right;
+}
+#content-layout{
+  display: block;
+  grid-template-columns: 2fr 0.80fr;
+  grid-gap: 60px;
+  margin: 0px;
+  height: 1100px;
+}
+#ct-1{
+  grid-column-start: 1;
+	grid-column-end: 2;
+  text-align: left;
+}
+#ct-2{
+  grid-column-start: 2;
+	grid-column-end: 3;
+  text-align: left;
+}
+.header-one-style{
+  color: #32503f;
+  font-size: 30px;
+  margin: 40px 0px 0px 0px;
+}
+.header-two-style{
+  color: #9f471f;
+  font-size: 20px;
+  font-weight: 500;
+}
+.for-patient{
+  color: #9f471f;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 50px 0px 0px 0px;
+}
+#footer-layout{
+  display: grid;
+  grid-template-columns: 0.6fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 0px;
+  height: 400px;
+}
+#ft-1{
+  grid-column-start: 1;
+	grid-column-end: 2;
+  text-align: left;
+}
+#ft-2{
+  grid-column-start: 2;
+	grid-column-end: 3;
+  text-align: left;
+}
+#ft-3{
+  grid-column-start: 3;
+	grid-column-end: 4;
+  text-align: right;
+}
+/*phone portrait*/
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+/*phone landscape*/
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .nav-menu{
+    display: flex;
+    padding-left: 10px;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .nav-name{
+    font-size: 1rem;
+    margin: 30px 10px;
+  }
+  .nav-phone{
+    font-size: .9rem;
+    margin: 30px 0px;
+  }
+  #header-layout{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr;
+    grid-template-rows: 120px 0.3fr;
+  }
+  #hd-1{
+    grid-row-end: 3;
+  }
+  #hd-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: left;
+  }
+  #hd-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: right;
+  }
+  #hd-4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: right;
+  }
+  .slogan{
+    font-size:2.2em;
+  }
+  #content-layout{
+    display: grid;
+    height: 865px;
+  }
+  a{
+    font-size: 22px;
+  }
+  .button{
+    font-size: 15px;
+  }
+  .header-one-style{
+    font-size: 30px;
+  }
+  .header-two-style{
+    font-size: 20px;
+  }
+  .for-patient{
+    font-size: 20px;
+  }
+}
+/*tablet portrait*/
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .nav-menu{
+    display: flex;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .nav-name{
+    font-size: 1.2rem;
+    margin: 30px;
+  }
+  .nav-phone{
+    font-size: 1.2rem;
+    margin: 30px 0px;
+  }
+  #header-layout{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr;
+    grid-template-rows: 120px 0.3fr;
+  }
+  #hd-1{
+    grid-row-end: 3;
+  }
+  #hd-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: left;
+  }
+  #hd-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: right;
+  }
+  #hd-4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: right;
+  }
+  .slogan{
+    font-size:2.5em;
+  }
+  #content-layout{
+    display: grid;
+    height: 730px;
+  }
+  a{
+    font-size: 22px;
+  }
+  .button{
+    font-size: 20px;
+  }
+  .header-one-style{
+    font-size: 36px;
+  }
+  .header-two-style{
+    font-size: 24px;
+  }
+  .for-patient{
+    font-size: 24px;
+  }
+}
+/*desktop*/
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .nav-menu{
+    display: flex;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .nav-name{
+    font-size: 1.2rem;
+    margin: 30px;
+  }
+  .nav-phone{
+    font-size: 1.2rem;
+    margin: 30px 0px;
+  }
+  #header-layout{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr;
+    grid-template-rows: 120px 0.3fr;
+  }
+  #hd-1{
+    grid-row-end: 3;
+  }
+  #hd-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: left;
+  }
+  #hd-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: right;
+  }
+  #hd-4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: right;
+  }
+  .slogan{
+    font-size:2.5em;
+  }
+  #content-layout{
+    display: grid;
+    height: 665px;
+  }
+  a{
+    font-size: 22px;
+  }
+  .button{
+    font-size: 20px;
+  }
+  .header-one-style{
+    font-size: 36px;
+  }
+  .header-two-style{
+    font-size: 24px;
+  }
+  .for-patient{
+    font-size: 24px;
+  }
+}
